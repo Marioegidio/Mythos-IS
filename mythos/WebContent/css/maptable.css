@@ -1,0 +1,85 @@
+
+.maptable tr td{
+    width:10%;
+    text-align: center;
+    color: aliceblue;
+    height: 11%;
+}
+.maptable tr{
+    height: 10%;
+    font-size:13px;
+}
+.maptable{
+    
+    background-color: #2b3036;/*rgb(190, 179, 149)  ;#2A2A1B;*/
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin:1% auto;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding:20px 7px;
+    width:600px;
+    height:600px;
+
+}
+.maptable .td-atrium{
+	  background-color: rgb(190, 179, 149)  ;/*#2A2A1B;*/
+	  border-radius:10px;
+}
+.maptable .td-console{
+	 
+        background-image: url('../images/console.png');
+        background-size: 70% 160%;
+        background-repeat: no-repeat;
+        background-position:center;
+        
+}  
+.maptable .td-stairs{
+	 
+        background-image: url('../images/stairs.png');
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position:top;
+        
+} 
+
+.maptable .td-stairsTop{
+        background-image: url('../images/stairs-top.png');
+        background-size: 60% 60%;
+        background-repeat: no-repeat;
+        background-position:left;
+        
+}
+.maptable .td-featureTop{
+        background-image: url('../images/feature-top.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position:center;
+        
+}
+.maptable .min{
+    width:5%;
+}
+.maptable .td-unavailable{
+		cursor:pointer;
+        background-image: url('../images/unavailable.png');
+        background-size: 100% 100%;
+}
+.maptable .td-available{
+		cursor:pointer;
+        background-image: url('../images/available.png');
+        background-size: 100% 100%;
+}
+@media screen and (max-width: 600px) {
+            .maptable{
+                    width:98%;
+                    height:470px;
+
+            } 
+            .maptable .td-console{
+           background-size: 70% 130%;
+   }     
+             
+}

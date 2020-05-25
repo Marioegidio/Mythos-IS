@@ -1,0 +1,115 @@
+@charset "UTF-8";
+html,body { margin: 0; padding: 0; height: 101%; }
+body{
+    background-color:#3f4956;
+    color:#eeeeee;
+    margin:0;
+}
+/*RESPONSIVE MENU*/
+
+
+/*FINE MENU HEADER*/
+
+/******************************************************************/
+/*CONTENT*/
+
+
+/*********************TABELLA RESPONSIVE********************************/
+/* larghezza del div che contiene la tabella (facoltativo): il valore potrebbe essere omesso se vale 100% oppure se viene definito altrove */
+
+.table-responsive {
+    width: 99%;
+    margin-left:5px;
+}
+
+.table-responsive tbody{
+	width:100%;
+}
+/* istruzioni per le celle (alcune sono obbligatorie) */
+
+.table-responsive table td,
+.table-responsive table th {
+    word-break: break-all;
+}
+
+
+.table-responsive td {
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.table-responsive th {
+    font-size: 17px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height:3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eee; 
+  border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eeeeaa; 
+}
+    #data_start,#data_end{
+    	 width:30%;
+    }
+    
+/*FOOTER*/
+footer{
+  width:100%;
+  padding-top: 50px;
+  text-align: center;
+}
+footer > .container-fluid{
+    padding-top:10px;
+    height:80px;
+    background-color: rgb(38, 39, 33);
+}
+
+
+/****************************************************************************************/
+
+
+/*@MEDIA SCREEN*/
+@media screen and (max-width: 1200px) {
+		.logo{
+			width:15%;
+		}
+}
+
+@media screen and (max-width: 992px) {
+	  
+	  .logo{
+			width:20%;
+		}
+		
+}
+
+@media screen and (max-width: 768px) {
+	    .logo{
+			width:100%;
+		}
+		.btn-large {
+			width: 90%;
+			margin:0 auto;
+		}
+		.headSpan{
+			clear:both;
+			width:99%;
+			margin-bottom:10px;
+			padding:8px;
+		}
+		.headSpan span{
+			float:left;
+		}
+}
