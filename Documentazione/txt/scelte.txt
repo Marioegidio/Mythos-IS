@@ -1,0 +1,18 @@
+-Perchè non è stato fatto il category partition dell'aggiunta al carrello di un prodotto già presente in esso?
+  con il category partititon non posso mostrare lo stato attuale del carrell,pertanto quando vado ad inserire un 
+	 prodotto già presente,non posso verificare con il CP che mi aumenta correttamenete la quantità
+
+-Perchè non è stato messo il caso in cui un numero è negativo?
+  perchè il formato è [0-9] e pertanto non è possibile inserire il "-" per mettere una quantità negativa. 
+
+-Perchè i servizi "visualizzatuttiitavoli" e "ottienicostoprenotazioni" non sono stati aggiunti come casi d'uso?
+  perchè non sono dei veri e propri casi d'uso in quanto non vengono richiesti direttamente da un attore ma servono 
+  esclusivamente a fornire un servizio a tutti gli utenti senza che lo richiedano esplicitamente.
+  il primo ad esempio viene usato per visualizzare la mappa dei tavoli 
+
+-Perchè ogni parte nei sequences abbiamo messo che fa riferimento al manager del singolo oggetto invece che alla gestione ?
+  Perchè è come se avessimo inglobato tutti questi singoli manager in un manager più grande che si occupa di tutto. (sarebbe il manager gestore)
+  (Non avendo ancora una visione completa nel rad non abbiamo indicato i manager dei sottosistemi)
+
+-Perchè non sono state implementate le precondizioni dei metodi?
+ Perchè non verranno implementate nella prima versione del sistema, ma negli sviluppi futuri pertanto ci siamo limitati a sopecificarle nella javadoc

@@ -1,0 +1,55 @@
+RAD
+-sequence diagram per tutte le eccezioni dei casi d uso.(specificarli) **************** FATTO OK ******************
+
+-mockups,mancano quelli delle altre schermate
+
+- caso d uso "aggiunfiprodottoalcarrello". si deve aggiungere l eccezione. si deve aggiungere che se è stata inserita 	una quantità 
+	maggiore di quella disponibile,allora viene mostrato un messaggio d'errore ********************* FATTO OK ********************
+	per il sequence usare quello che già c'è tanto le interazioni sono uguali
+
+--aggiungere caso d uso "visualizzaDettagliOrdine", dovrebbe andare in "gestione magazzino visto che potremmo trattarli come prodotti "
+	fare sequence ********************* FATTO OK ***********************************
+
+--aggiungere caso d uso "visualizzaProdottiBar",dovrebbe andare in "gestione magazzino" e 
+	fare sequence ********************* FATTO OK *****************************
+
+--aggiungere caso d uso "visualizzaTuttiProdotti",dovrebbe andare in "gestione magazzino" e 
+	fare sequence ATTENZIONE!!! SAREBBE "visualizzaProdottiCatalogo" ****************** FATTO OK ***************
+
+--sequence "info prenotazione"
+
+*****************************************************************
+--aggiungere caso d uso "visualizzaTuttiTavoli"                 *
+	e fare sequence                                         *
+                                                                *
+--aggiungere caso d uso "ottienicostoprenotazioni"              *
+	e fare sequence                                         *
+**************************************************************NON FATTO. VEDERE il file 'scelte' per capire il motivo.s
+
+--far vedere nel sequence dell autenticazione online che interagisce con pr manager ********************** FATTO OK ********************
+
+--si devono controllare tutti i diagrammi dei casi d uso per ogni gestione. Ci sono delle inconsistenze tra visual paradigm e casi d uso descritti nel rad
+	********************  FATTO,DOVREEBBE ESSERE OK **********************
+
+
+SDD
+
+
+ODD
+-class diagram ODD 
+
+
+
+
+
+-activity diagram -> ingresso in lista (attori:pr,cassiere) ************FATTO OK************
+--Aggiungere priorità ai requisiti funzionali ************FATTO OK************
+
+ confermaDettaglio come servizio *****************FATTO OK***************
+nuovo servizio "visualizzastatoliste" ****************FATTO OK************** aggiunto anche caso d uso e sequence diagram
+
+
+-test case specification per ogni input. *********FATTO,OK*************
+
+
+

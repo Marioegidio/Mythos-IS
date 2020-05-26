@@ -1,0 +1,9 @@
+togliere che le quantità vengono scalate automaticamente dal magazzino alla cambusa/bar *************
+far modificare al cassiere il nome della prenotazione					** FATTO OK
+la modifica del prodotto va aggiustata secondo il caso d uso				*************
+
+
+***BUG*** quando abilito e disabilito liste mi esce elenco infinito pr ************ FIXED OK **************
+***BUG*** inserimento cliente in lista funziona con liste disabilitate ************ FIXED OK **************
+
+Inserire il trim quando invio i dati per inserire il pr(webservice) da piattaforma locale a quella online.

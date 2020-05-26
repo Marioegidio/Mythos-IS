@@ -1,0 +1,1 @@
+va bene mettere la conversiona da stringa a intero nei control? SI
